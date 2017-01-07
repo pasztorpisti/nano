@@ -1,0 +1,12 @@
+{
+    "service_name": "svc4",
+    "endpoints": [
+        {
+            "method": "POST",
+            "path": "/",
+            "has_req_content": true,
+            "req_type": "Req",
+            "resp_type": "Resp"
+        }
+    ]
+}

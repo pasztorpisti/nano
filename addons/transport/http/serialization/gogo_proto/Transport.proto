@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package gogo_proto;
+
+message Request {
+    RequestMeta meta = 1;
+    bytes payload = 2;
+}
+
+message RequestMeta {
+    string req_id = 1;
+    string client_name = 3;
+}
+
+message ErrorResponse {
+    string code = 1;
+    string msg = 2;
+}

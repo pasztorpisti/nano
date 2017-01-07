@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package svc1;
+
+message Req {
+    string param = 1;
+}
+
+message Resp {
+    string value = 1;
+}

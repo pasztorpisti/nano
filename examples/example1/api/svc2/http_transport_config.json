@@ -1,0 +1,19 @@
+{
+    "service_name": "svc2",
+    "endpoints": [
+        {
+            "method": "POST",
+            "path": "/",
+            "has_req_content": true,
+            "req_type": "Req",
+            "resp_type": "Resp"
+        },
+        {
+            "method": "GET",
+            "path": "/",
+            "has_req_content": false,
+            "req_type": "GetReq",
+            "resp_type": "GetResp"
+        }
+    ]
+}
